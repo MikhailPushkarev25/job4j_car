@@ -1,2 +1,2 @@
-[![Build Status](https://app.travis-ci.com/MikhailPushkarev25/job4j_cars.svg?branch=master)](https://app.travis-ci.com/MikhailPushkarev25/job4j_cars)
-[![codecov](https://codecov.io/gh/MikhailPushkarev25/job4j_cars/branch/master/graph/badge.svg?token=yRAQv9OKeI)](https://codecov.io/gh/MikhailPushkarev25/job4j_cars)
+[![Build Status](https://app.travis-ci.com/MikhailPushkarev25/job4j_car.svg?branch=master)](https://app.travis-ci.com/MikhailPushkarev25/job4j_car)
+[![codecov](https://codecov.io/gh/MikhailPushkarev25/job4j_car/branch/master/graph/badge.svg?token=G4ldYxvO3Y)](https://codecov.io/gh/MikhailPushkarev25/job4j_car)
