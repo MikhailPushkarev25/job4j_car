@@ -8,7 +8,7 @@ public class Cinema {
 
         for (int i = 0; i < places.length; i++) {
             for (int j = 0; j < places[i].length; j++) {
-                Place place = new Place(i, j);
+                Place place = places[i][j];
                 Place one = null;
                 Place two = null;
                 Place three = null;
@@ -20,11 +20,11 @@ public class Cinema {
                 if (i + 1 != places.length) {
                     two = places[i + 1][j];
                 }
-                if (j - 1 >= 0) {
-                    three = places[i][j - 1];
-                }
                 if (j + 1 != places[i].length) {
-                    four = places[i][j + 1];
+                    three = places[i][j + 1];
+                }
+                if (j - 1 >= 0) {
+                    four = places[i][j - 1];
                 }
                 if (place == null) {
                     if (one == null && two == null && three == null && four == null) {
