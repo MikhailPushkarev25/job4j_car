@@ -9,11 +9,9 @@ public class SpringDI {
 
         context.refresh();
 
-        StartUi ui = context.getBean(StartUi.class);
-        ui.add("Mikhail Pushkarev");
-        ui.add("Roman Sokolov");
-        ui.print();
-        ui.askStr("Ваш возраст?");
-        ui.askInt("Хорошо!");
+        Store store = context.getBean(Store.class);
+        store.add("Mikhail Pushkarev");
+        Store store1 = context.getBean(Store.class);
+        store.getAll().forEach(System.out::println);
     }
 }
