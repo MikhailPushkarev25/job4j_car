@@ -18,6 +18,9 @@ public class Hiber implements Store, AutoCloseable {
     private final SessionFactory sf = new MetadataSources(registry)
             .buildMetadata().buildSessionFactory();
 
+    private Hiber() {
+    }
+
     private static final class Lazy {
         private static final Store inst = new Hiber();
     }

@@ -36,9 +36,9 @@ public class ItemServlet extends HttpServlet {
             int price = 0;
             String description = null;
             List<Photo> photos = new ArrayList<>();
-
+            String path = Config.result("path");
             List<FileItem> items = upload.parseRequest(req);
-            File folder = new File("c:\\images\\");
+            File folder = new File(path);
             if (!folder.exists()) {
                 folder.mkdir();
             }
